@@ -21,6 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
             'llama_trajectory_generator = trajectory_generator.llama_trajectory_generator:main',
+            'trajectory_generator = trajectory_generator.trajectory_generator:main',
         ],
     },
 )
